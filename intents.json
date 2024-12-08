@@ -1,0 +1,174 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Apa kabar?",
+        "Halo",
+        "Halo kak",
+        "Hai",
+        "Assalamu'alaikum"
+      ],
+      "responses": [
+        "Hi, Ada yang bisa saya bantu?",
+        "Halo, Apa yang bisa saya bantu?",
+        "Wa'alaikumsalam, ada yang bisa saya bantu?",
+        "Halo, apa kabar?",
+        "Hai, apa yang bisa saya bantu?",
+        "ada yang bisa saya bantu?"
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Sampai jumpa",
+        "Selamat tinggal",
+        "Terima kasih, sampai bertemu lagi"
+      ],
+      "responses": [
+        "Semoga Allah memberikan kemudahan dan keberkahan padamu. sampai jumpa lagi",
+        "Semoga Allah selalu melindungimu, sampai jumpa lagi.",
+        "Sampai jumpa, semoga Allah memberikan rahmat-Nya kepada kita semua."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Terima kasih",
+        "Makasih",
+        "Itu sangat membantu",
+        "Terima kasih banyak",
+        "Sama-sama"
+      ],
+      "responses": [
+        "Alhamdulillah, senang bisa membantu. Semoga bermanfaat.",
+        "Tidak masalah, semoga Allah memudahkan urusanmu.",
+        "Jazakumullahu khairan, senang bisa membantu."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "mental_health",
+      "patterns": [
+        "Bagaimana cara mengatasi stres?",
+        "Jelaskan tentang mindfulness",
+        "Saya merasa sedih, apa yang harus saya lakukan?",
+        "Saya cemas, apa yang bisa saya lakukan?",
+        "Apa itu depresi?",
+        "Apa yang dapat saya lakukan untuk menjaga kesehatan mental?",
+        "Apa itu kecemasan berlebihan?",
+        "Apa yang harus saya lakukan jika merasa cemas?",
+        "Bagaimana cara mengatasi perasaan cemas?"
+      ],
+      "responses": [
+        "Ingatlah selalu bahwa Allah bersama orang-orang yang sabar. Berbicara tentang perasaanmu bisa membantu.",
+        "Untuk mengatasi stres, percayakan semua urusanmu pada Allah, lalu cobalah teknik pernapasan atau meditasi.",
+        "Mindfulness adalah cara untuk fokus pada saat ini, mensyukuri nikmat Allah, dan memperhatikan perasaanmu tanpa menghakimi.",
+        "Jika merasa sedih, ingatlah untuk selalu berdoa dan berbicara dengan seseorang yang kamu percayai. Allah Maha Mendengar.",
+        "Depresi adalah ujian berat, tetapi Allah tidak memberikan ujian di luar kemampuan hamba-Nya. Carilah bantuan dari seorang profesional jika perlu.",
+        "Kecemasan berlebihan bisa menandakan ketidakpercayaan pada takdir Allah. Cobalah untuk berserah diri dan berbicara dengan seorang ahli.",
+        "Untuk menjaga kesehatan mental, banyak berdoa, tidur yang cukup, makan dengan baik, dan berzikir untuk menenangkan hati.",
+        "Jika merasa cemas, percayakan segala kekhawatiranmu pada Allah. Cobalah pernapasan dalam dan berdoa untuk ketenangan hati.",
+        "Berbicara dengan seseorang yang kamu percayai, atau lakukan ibadah yang menenangkan seperti sholat dan zikir."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "Bagaimana cara mengatasi stres?",
+        "Apa yang bisa saya lakukan untuk mengurangi stres?",
+        "Stres, apa yang harus saya lakukan?",
+        "Saya merasa tertekan, bagaimana cara mengatasinya?"
+      ],
+      "responses": [
+        "Bersabarlah, dan serahkan semua urusanmu pada Allah. Cobalah pernapasan dalam untuk menenangkan dirimu.",
+        "Melakukan olahraga secara rutin bisa membantu. Jangan lupa untuk selalu berdoa agar Allah memberi ketenangan.",
+        "Bicara dengan seseorang yang kamu percayai dan perbanyak berzikir. Allah akan memberi ketenangan pada hati yang gelisah.",
+        "Meditasi atau mindfulness, seperti berzikir dan merenung, dapat sangat efektif dalam mengurangi stres."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "Apa itu depresi?",
+        "Saya merasa sangat sedih, apakah itu depresi?",
+        "Bagaimana cara mengetahui apakah saya depresi?",
+        "Apa yang harus saya lakukan jika saya merasa depresi?"
+      ],
+      "responses": [
+        "Depresi adalah perasaan sedih yang mendalam. Ingatlah bahwa Allah tidak akan membiarkan hamba-Nya tanpa jalan keluar.",
+        "Jika kamu merasa sangat sedih, perbanyak doa dan dzikir. Jangan ragu untuk mencari bantuan dari seorang profesional.",
+        "Untuk mengatasi depresi, sangat penting untuk berbicara dengan seorang ahli dan selalu berserah pada takdir Allah."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "anxiety",
+      "patterns": [
+        "Apa itu kecemasan?",
+        "Saya merasa sangat cemas, apa yang harus saya lakukan?",
+        "Bagaimana cara mengatasi kecemasan?",
+        "Saya merasa tertekan dan cemas, apa yang bisa saya lakukan?"
+      ],
+      "responses": [
+        "Kecemasan adalah rasa khawatir yang berlebihan. Ingatlah bahwa Allah selalu ada untukmu, percayakan urusanmu pada-Nya.",
+        "Jika kamu merasa cemas, berdoalah dan coba teknik pernapasan dalam untuk menenangkan dirimu.",
+        "Bicara dengan seorang profesional dan serahkanlah segala kekhawatiranmu kepada Allah. Ia Maha Mengetahui."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "mindfulness",
+      "patterns": [
+        "Apa itu mindfulness?",
+        "Bagaimana cara melakukan mindfulness?",
+        "Apa manfaat mindfulness?",
+        "Saya ingin belajar mindfulness, bagaimana cara melakukannya?"
+      ],
+      "responses": [
+        "Mindfulness adalah cara untuk fokus pada saat ini dengan rasa syukur kepada Allah atas segala nikmat-Nya.",
+        "Untuk melakukan mindfulness, cobalah berzikir, fokus pada pernapasan, dan ikhlas dalam menjalani hidup.",
+        "Manfaat mindfulness termasuk mengurangi stres, meningkatkan kedekatan dengan Allah, dan meningkatkan konsentrasi dalam beribadah."
+      ],
+      "context": [
+        ""
+      ]
+    },
+    {
+      "tag": "self_care",
+      "patterns": [
+        "Apa yang bisa saya lakukan untuk merawat diri sendiri?",
+        "Bagaimana cara menjaga kesehatan mental saya?",
+        "Saya ingin merawat diri lebih baik, apa yang bisa saya lakukan?"
+      ],
+      "responses": [
+        "Perawatan diri dimulai dengan menjaga hubungan baik dengan Allah, tidur cukup, makan sehat, dan beribadah dengan khusyuk.",
+        "Berbicara dengan keluarga dan teman yang baik juga dapat mendukung kesehatan mental. Jangan lupa untuk berdoa.",
+        "Sisihkan waktu untuk beribadah, berzikir, dan melakukan hal-hal yang membuatmu bahagia, semua itu adalah bentuk perawatan diri."
+      ],
+      "context": [
+        ""
+      ]
+    }
+  ]
+}
